@@ -1,0 +1,32 @@
+import java.lang.System;
+class dt{
+public static void main(String args[])
+{
+double a = 10.123456;
+    System.out.println(a);
+
+    float b = 10.123451f;
+    System.out.println(b);
+
+    byte c=123;
+    System.out.println(c);
+    byte c1=-123;
+    System.out.println(c1);
+
+    short d=32761;
+    System.out.println(d);
+    short d1=-32761;
+    System.out.println(d1);
+
+    long e=-922337213685477580L;
+    System.out.println(e);
+
+    char f='z';
+    System.out.println(f);
+
+    boolean g= true;
+    boolean h=false;
+    System.out.println(g);
+    System.out.print(h);
+}
+}
